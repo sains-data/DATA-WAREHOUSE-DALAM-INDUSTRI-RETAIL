@@ -1,0 +1,7 @@
+## Ringkasan Kebutuhan Bisnis
+Superstore membutuhkan *data warehouse* untuk mengkonsolidasikan data dari berbagai sumber seperti *Point of Sale* (POS), sistem inventori, dan *platform customer management*. Tujuan utama adalah memperoleh gambaran komprehensif tentang kinerja bisnis lintas kategori produk, segmen pelanggan, dan wilayah geografis untuk mendukung pengambilan keputusan strategis. *Data warehouse* ini akan memungkinkan analisis terkait:
+
+1. Profitabilitas produk di berbagai kategori dan subkategori
+2. Efektivitas strategi diskon dan promosi
+3. Performa penjualan berdasarkan wilayah geografis
+4. Pola pembelian dan perilaku pelanggan
