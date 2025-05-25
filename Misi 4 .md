@@ -62,10 +62,19 @@ Size: ~2.3 MB
 ```
 
 ### Key Features Analysis
-- **Customer Info**: Customer ID, Name, Segment
-- **Geographic**: Country, State, City, Region, Postal Code
-- **Product Info**: Category, Sub-Category, Product Name
-- **Financial**: Sales, Quantity, Discount, Profit
+- **Ship Mode**: Metode pengiriman produk
+- **Segment**: Segmen customer (Consumer, Corporate, Home Office)
+- **Country**: Negara (United States)
+- **City**: Kota tempat pengiriman
+- **State**: Negara bagian
+- **Postal Code**: Kode pos
+- **Region**: Wilayah geografis (West, East, Central, South)
+- **Category**: Kategori produk utama
+- **Sub-Category**: Sub-kategori produk
+- **Sales**: Total penjualan dalam dollar
+- **Quantity**: Jumlah unit yang terjual
+- **Discount**: Persentase diskon yang diberikan
+- **Profit**: Keuntungan yang diperoleh
 
 ---
 
@@ -90,30 +99,29 @@ LOCATIONS (1) ──── (M) ORDERS
 ```sql
 -- Fact Table
 fact_sales (
-    order_id,
-    customer_key,
-    product_key,
-    location_key,
-    order_date,
-    sales_amount,
+    ship_mode,
+    segment,
+    country,
+    city,
+    state,
+    postal_code,
+    region,
+    category,
+    sub_category,
+    sales,
     quantity,
     discount,
     profit
 )
-
--- Dimension Tables
-dim_customer (customer_key, customer_id, name, segment)
-dim_product (product_key, category, sub_category, product_name)
-dim_location (location_key, region, state, city, postal_code)
-dim_date (date_key, order_date, year, month, quarter, weekday)
 ```
 
 ### Desain Fisikal
 #### Technology Stack
-- **Storage**: PostgreSQL untuk data warehouse
-- **Processing**: 
-- **Analytics**: 
-- **Visualization**: 
+- **Storage**: MySQL/PostgreSQL database
+- **Processing**: SQL queries dan Excel/Google Sheets
+- **Analytics**: SQL untuk data analysis
+- **Visualization**: Tableau Desktop/Public
+- **Data Import**: CSV import ke SQL database
 
 ---
 
@@ -165,20 +173,24 @@ dim_date (date_key, order_date, year, month, quarter, weekday)
 superstore-analysis/
 ├── data/
 │   ├── raw/
+│   │   └── superstore.csv
 │   ├── processed/
-│   └── external/
-├── notebooks/
-│   ├── 01-data-exploration.ipynb
-│   ├── 02-data-cleaning.ipynb
-│   ├── 03-analytics.ipynb
-│   └── 04-modeling.ipynb
-├── src/
-│   ├── data/
-│   ├── features/
-│   ├── models/
-│   └── visualization/
-├── dashboard/
-├── reports/
-├── tests/
-└── requirements.txt
+│   │   └── cleaned_superstore.csv
+│   └── sql/
+│       └── database_schema.sql
+├── excel_analysis/
+│   ├── data_exploration.xlsx
+│   ├── pivot_analysis.xlsx
+│   └── summary_report.xlsx
+├── sql_queries/
+│   ├── basic_analysis.sql
+│   ├── advanced_queries.sql
+│   └── kpi_calculations.sql
+├── tableau/
+│   ├── superstore_dashboard.twb
+│   ├── executive_summary.twb
+│   └── detailed_analysis.twb
+└── documentation/
+    ├── data_dictionary.xlsx
+    └── user_guide.pdf
 ```
