@@ -158,7 +158,6 @@ fact_sales (
 
 ## 10. Tim Proyek
 
-### Core Team
 - Marhanny Zahra Nurendra 	120450017
 - Eunike Bunga Santa		121450095
 - Muhammad Bayu Syuhada	122450007
