@@ -1,4 +1,4 @@
-# Implementasi Data Warehouse pada Bidang Retail di Superstore
+# Data Warehouse Dalam Industri Retail
 
 ## Nama Kelompok
 - Marhanny Zahra Nurendra 	120450017
