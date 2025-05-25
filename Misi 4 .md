@@ -182,30 +182,3 @@ superstore-analysis/
 ├── tests/
 └── requirements.txt
 ```
-
-## 🚀 Getting Started
-```bash
-# Clone repository
-git clone [repository-url]
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run data pipeline
-python src/data/etl_pipeline.py
-
-# Start dashboard
-streamlit run dashboard/app.py
-```
-
-## 📈 Key Performance Indicators
-- **Data Freshness**: Updated daily
-- **Dashboard Performance**: <3 second load time
-- **Analysis Coverage**: 100% data completeness
-- **User Adoption**: 85% stakeholder engagement
-
----
-
-*Last Updated: May 2025*
-*Version: 1.0*
-*Contact: [team-email@company.com]*
