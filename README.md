@@ -206,10 +206,10 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
 ---
 
 ## 7. Hasil Implementasi
-Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami performa regional dan mengidentifikasi area dengan potensi terbaik.
+Visualisasi menunjukkan gambaran umum performa bisnis berdasarkan total keuntungan dan profit yang dihasilkan.
 ![Superstore](images/analitik1.jpg)
 
-*Gambar 5. Profit berdasarkan wilayah*
+*Gambar 5. Performa bisnis berdasarkan total keuntungan dan profit*
 
 Analisis ini menampilkan distribusi profit di setiap kategori produk untuk mengidentifikasi kategori yang paling menguntungkan.
 ![Superstore](images/analitik2.jpg)
