@@ -191,22 +191,33 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
    1. OLAP (Online Analytical Processing)
       Agregasi Data
       tahap ini bertujuan untuk melihat gambaran umum dari peforma bisnis. dimana performa bisnis dinilai dari jumlah keuntungan dan jumlah profit yang dihasilkan.
-      
-      berdasarkan jumlah keuntungan dan jumlah profit
-      ![Superstore](images/analitik1.jpg)
-      total profit berdasarkan kategori
-            ![Superstore](images/analitik2.jpg)
-      total profit berdasarkan wilayah
-       ![Superstore](images/analitik3.jpg)
-      total profit berdasarkan kota
-       ![Superstore](images/analitik4.jpg)
+  
 
 
  
 ---
 
 ## 7. Hasil Implementasi
+Berdasarkan jumlah keuntungan dan jumlah profit
+![Superstore](images/analitik1.jpg)
 
+Total profit berdasarkan kategori
+![Superstore](images/analitik2.jpg)
+
+Total profit berdasarkan wilayah
+![Superstore](images/analitik3.jpg)
+
+Total profit berdasarkan kota
+![Superstore](images/analitik4.jpg)
+
+Analisis performa berdasarkan kategori
+![Superstore](images/Analisis-Performa-Kategori.jpg)
+
+Analisis region dan segmentasi
+![Superstore](images/Analisis-Region-Segment.jpg)
+
+Analisis top performing product
+![Superstore](images/Analisis-Top-Performing-Products.jpg)
 
 
 ---
