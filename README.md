@@ -206,17 +206,17 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
 ---
 
 ## 7. Hasil Implementasi
-Visualisasi menunjukkan gambaran umum performa bisnis berdasarkan total keuntungan dan profit yang dihasilkan.
+1. Visualisasi menunjukkan gambaran umum performa bisnis berdasarkan total keuntungan dan profit yang dihasilkan.
 ![Superstore](images/analitik1.jpg)
 
 *Gambar 5. Performa bisnis berdasarkan total keuntungan dan profit*
 
-Analisis ini menampilkan distribusi profit di setiap kategori produk untuk mengidentifikasi kategori yang paling menguntungkan.
+2. Analisis ini menampilkan distribusi profit di setiap kategori produk untuk mengidentifikasi kategori yang paling menguntungkan.
 ![Superstore](images/analitik2.jpg)
 
 *Gambar 6. Profit berdasarkan kategori*
 
-Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami performa regional dan mengidentifikasi area dengan potensi terbaik.
+3. Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami performa regional dan mengidentifikasi area dengan potensi terbaik.
 ![Superstore](images/analitik3.jpg)
 
 *Gambar 7. Profit berdasarkan wilayah*
@@ -226,17 +226,17 @@ Analisis tingkat kota memberikan insight yang lebih detail mengenai performa bis
 
 *Gambar 8. Profit berdasarkan kota*
 
-Analisis mendalam mengenai performa setiap kategori produk dengan berbagai metrik bisnis.
+4. Analisis mendalam mengenai performa setiap kategori produk dengan berbagai metrik bisnis.
 ![Superstore](images/Analisis-Performa-Kategori.jpg)
 
 *Gambar 9. Analisis performa berdasarkan kategori*
 
-Kombinasi analisis antara wilayah geografis dengan segmentasi pelanggan untuk memahami pola pembelian dan preferensi pasar.
+5. Kombinasi analisis antara wilayah geografis dengan segmentasi pelanggan untuk memahami pola pembelian dan preferensi pasar.
 ![Superstore](images/Analisis-Region-Segment.jpg)
 
 *Gambar 10. Analisis region dan segmentasi*
 
-Identifikasi produk-produk dengan performa terbaik berdasarkan berbagai metrik seperti penjualan, profit, dan volume transaksi.
+6. Identifikasi produk-produk dengan performa terbaik berdasarkan berbagai metrik seperti penjualan, profit, dan volume transaksi.
 ![Superstore](images/Analisis-Top-Performing-Products.jpg)
 
 *Gambar 11. Analisis top performing product*
