@@ -205,11 +205,6 @@ Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CS
   ✅ Customer lifetime value  
   ✅ Tren profitabilitas produk  
 
-- **Standarisasi Template Excel**:  
-  Membuat template standar untuk:  
-  📊 Laporan penjualan bulanan  
-  📈 Analisis varians   
-
 ---
 
 ## **Tujuan Jangka Menengah (6-12 bulan)**  
