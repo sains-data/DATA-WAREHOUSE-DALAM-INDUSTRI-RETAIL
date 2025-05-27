@@ -19,10 +19,10 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 - Produk apa yang perlu difokuskan atau dihentikan?
 
 ### Objektif Proyek
-- Menganalisis performa penjualan berdasarkan kategori, region, dan customer segment
-- Mengidentifikasi produk dan customer yang paling profitable
-- Memberikan rekomendasi strategis untuk meningkatkan profitabilitas
-- Membangun dashboard interaktif untuk monitoring KPI
+- Menganalisis performa penjualan berdasarkan kategori, region, dan customer segment.
+- Mengidentifikasi produk dan customer yang paling profitable.
+- Memberikan rekomendasi strategis untuk meningkatkan profitabilitas.
+- Membangun dashboard interaktif untuk monitoring KPI.
 
 ---
 
