@@ -201,37 +201,37 @@ Implementasi *Online Analytical Processing* (OLAP) dalam sistem data warehouse i
 ---
 
 ## 7. Hasil Implementasi
-1. Visualisasi menunjukkan gambaran umum performa bisnis berdasarkan total keuntungan dan profit yang dihasilkan.
+1. Analisis ini menunjukkan performa bisnis secara keseluruhan dengan menghitung akumulasi penjualan dan profit. Data mengungkapkan bahwa perusahaan berhasil mencapai total penjualan sebesar $2.3 juta dengan profit $286 ribu, yang berarti margin profit keseluruhan berada di kisaran 12.5%. Angka ini memberikan gambaran dasar tentang kesehatan finansial perusahaan sebelum dilakukan analisis lebih mendalam.
 ![Superstore](images/analitik1.jpg)
 
 *Gambar 5. Performa bisnis berdasarkan total keuntungan dan profit*
 
-2. Analisis ini menampilkan distribusi profit di setiap kategori produk untuk mengidentifikasi kategori yang paling menguntungkan.
+2. Pembagian penjualan berdasarkan kategori produk memperlihatkan bahwa Technology menjadi penyumbang terbesar dengan nilai $836 ribu, diikuti Furniture ($742 ribu) dan Office Supplies ($719 ribu). Yang menarik, meskipun Technology mendominasi, ketiga kategori sebenarnya menunjukkan distribusi yang cukup seimbang dengan selisih tidak lebih dari 15% antara kategori tertinggi dan terendah, mengindikasikan diversifikasi produk yang baik.
 ![Superstore](images/analitik2.jpg)
 
 *Gambar 6. Profit berdasarkan kategori*
 
-3. Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami performa regional dan mengidentifikasi area dengan potensi terbaik.
+3.Analisis regional mengungkap disparitas profit yang signifikan di mana wilayah Barat (West) unggul dengan profit $108 ribu, hampir tiga kali lipat dibanding wilayah Tengah (Central) yang hanya $39 ribu. Pola ini menunjukkan bahwa strategi penjualan yang efektif di wilayah Barat dan Timur perlu diteliti lebih lanjut untuk diterapkan di wilayah dengan performa lebih rendah.
 ![Superstore](images/analitik3.jpg)
 
 *Gambar 7. Profit berdasarkan wilayah*
 
-4. Analisis tingkat kota memberikan insight yang lebih detail mengenai performa bisnis di tingkat lokal.
+4.Pemetaan geografis mengkonfirmasi bahwa 80% penjualan terkonsentrasi di lima kota utama, dengan New York City sebagai pasar terbesar ($256 ribu). Pola ini merekomendasikan fokus pengembangan pasar pada wilayah urban sekaligus ekspansi ke kota-kota menengah yang belum tergarap optimal.
 ![Superstore](images/analitik4.jpg)
 
 *Gambar 8. Profit berdasarkan kota*
 
-5. Analisis mendalam mengenai performa setiap kategori produk dengan berbagai metrik bisnis.
+5.Ketika melihat lebih detail ke setiap kategori, terungkap bahwa meskipun Furniture memiliki volume penjualan tinggi, margin profitnya hanya 2.49% karena tingginya diskon (rata-rata 17.39%). Sebaliknya, Technology dengan transaksi lebih sedikit justru memberikan kontribusi profit terbesar berkat margin sehat 17.4%, menunjukkan efisiensi bisnis yang lebih baik.
 ![Superstore](images/Analisis-Performa-Kategori.jpg)
 
 *Gambar 9. Analisis performa berdasarkan kategori*
 
-6. Kombinasi analisis antara wilayah geografis dengan segmentasi pelanggan untuk memahami pola pembelian dan preferensi pasar.
+6. Breakdown berdasarkan kombinasi wilayah dan segmen konsumen mengungkap bahwa segmen Home Office di Timur memberikan margin profit tertinggi (20.95%), sementara Consumer di Tengah hanya 3.4%. Temuan ini mengindikasikan perlunya penyesuaian strategi pemasaran khususnya untuk segmen Consumer di wilayah Tengah yang kurang profitable.
 ![Superstore](images/Analisis-Region-Segment.jpg)
 
 *Gambar 10. Analisis region dan segmentasi*
 
-7. Identifikasi produk-produk dengan performa terbaik berdasarkan berbagai metrik seperti penjualan, profit, dan volume transaksi.
+7.Analisis sub-kategori menunjukkan Copiers sebagai bintang profit dengan margin 37.2%, jauh di atas rata-rata. Yang mengejutkan, meskipun Phones memiliki volume transaksi tertinggi (889 transaksi), marginnya relatif rendah (13.49%), menunjukkan bahwa popularitas tidak selalu berbanding lurus dengan profitabilitas.
 ![Superstore](images/Analisis-Top-Performing-Products.jpg)
 
 *Gambar 11. Analisis top performing product*
