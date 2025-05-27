@@ -70,18 +70,18 @@ Pendekatan Star Schema diterapkan dalam perancangan data warehouse untuk memaksi
 
 ### Desain Konseptual
 
-### Fact Table
+**Fact Tables**:
 - **fakta_sales**: Tabel utama yang menyimpan data penjualan
 
-### Dimension Tables
-- **dim_location**: Data lokasi (country, city, state, region, postalcode)
+**Dimension Tables**:
+- **dim_location**: Data lokasi (country, city, state, region, postal_code)
 - **dim_customer**: Data pelanggan (customer_id, segment)
-- **dim_product**: Data produk (product_id, category, subcategory)
+- **dim_product**: Data produk (product_id, category, sub_category)
 - **dim_time**: Data waktu (time_id, year, month, day)
 
-## Relasi
-- Semua dimension tables terhubung ke fact table melalui foreign keys
-- Menggunakan model star schema untuk optimasi query analytical
+**Relasi**
+- **Semua dimension tables terhubung ke fact table melalui foreign keys**
+- **Menggunakan model star schema untuk optimasi query analytical**
 ```
 
 ### Desain Logikal
