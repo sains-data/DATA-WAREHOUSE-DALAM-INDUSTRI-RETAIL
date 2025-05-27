@@ -218,7 +218,7 @@ Oleh karena itu, karena data menunjukkan keseimbangan penjualan antar kategori c
 
 *Gambar 7. Profit berdasarkan wilayah*
 
-4. Pemetaan geografis mengkonfirmasi bahwa 80% penjualan terkonsentrasi di lima kota utama, dengan New York City sebagai pasar terbesar ($256 ribu). Pola ini merekomendasikan fokus pengembangan pasar pada wilayah urban sekaligus ekspansi ke kota-kota menengah yang belum tergarap optimal.
+4. Pemetaan geografis mengkonfirmasi bahwa 80% penjualan terkonsentrasi di lima kota utama, dengan New York City sebagai pasar terbesar ($256 ribu). Disusul oleh Los Angeles sebesar 175.851,34, kemudian Seattle (135.540,12), San Francisco (119.579,51), dan Philadelphia (109.077,03).Interpretasi data menunjukkan bahwa New York City menjadi pasar terbesar dikarenakan New York merupakan kota besar dengan populasi yang tinggi menjadikannya  kota tersbut memiliki aktivitas ekonomi yang tinggi.  Sementara dengan kota lainnya, meskipun tidak sebesar kota New York tetapi menunjukkan performa penjualan yang kuat, hanya saja dapat lebih lagi difokuskan dalam hal  pengembangan pasar yang tepat. Data ini dapat menjadi acuan dalam merancang strategi pemasaran dan distribusi, dengan memberikan perhatian khusus pada kota-kota dengan kontribusi penjualan tertinggi untuk memaksimalkan potensi pasar dan meningkatkan efisiensi operasional.
 ![Superstore](images/analitik4.jpg)
 
 *Gambar 8. Profit berdasarkan kota*
