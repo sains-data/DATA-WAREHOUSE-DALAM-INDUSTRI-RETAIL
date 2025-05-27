@@ -133,6 +133,8 @@ Pendekatan Star Schema diterapkan dalam perancangan data warehouse untuk memaksi
 
 ![Diagram Star Schema](images/schema-star.png)
 
+*Gambar 1. Skema bintang*
+
 ### Desain Konseptual
 
 **Fact Tables**:
@@ -178,14 +180,20 @@ Desain fisikal pada data warehouse Superstore menerapkan strategi pengindeksan (
 
 ![Superstore](images/memasukkan-data.jpg)
 
+*Gambar 2. Input data*
+
 Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CSV diproses. Data yang diekstrak mencakup berbagai dimensi penting seperti segmentasi pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit. 
 
 ![Superstore](images/dataset.jpg)
+
+*Gambar 3. Dataset Superstore*
 
 2. Mengembangkan Scrit PHP untuk Melakukan Proses ETL(Extract,Transform,Load)
    pengembangan ini dimulai dari koneksi ke database, pembacaan file CSV, hingga load data pengembangan ini merupakan tahap awal integrasi data dari sumber eksternal
    
 ![Superstore](images/pengembangan-ETL.jpg)
+
+*Gambar 4. Pengembangan ETL*
 
 3. Analisis Data
    1. OLAP (Online Analytical Processing)
@@ -198,8 +206,10 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
 ---
 
 ## 7. Hasil Implementasi
-Berdasarkan jumlah keuntungan dan jumlah profit
+Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami performa regional dan mengidentifikasi area dengan potensi terbaik.
 ![Superstore](images/analitik1.jpg)
+
+*Gambar 5. Profit berdasarkan wilayah*
 
 Total profit berdasarkan kategori
 ![Superstore](images/analitik2.jpg)
