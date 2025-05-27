@@ -58,9 +58,52 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 
 ---
 
-## 4. Analisis Kebutuhan (dari Misi 1)
+## 4. Analisis Kebutuhan (Misi 1)
+Analisis kebutuhan berfokus pada identifikasi stakeholder utama dan tujuan bisnis mereka dalam konteks analisis data superstore. Dari sini, ditentukan metrik (fakta) dan konteks (dimensi) yang krusial untuk data warehouse.
 
+## Stakeholder Utama & Tujuan Bisnis Kunci:
 
+### 🏢 **CEO**
+- Memastikan pertumbuhan bisnis dan profitabilitas menyeluruh
+- Mengidentifikasi peluang ekspansi pasar dan segmen baru
+- Menentukan strategi kompetitif berdasarkan performa regional
+
+### 👨‍💼 **Manajer Umum**
+- Merencanakan, mengarahkan, dan mengelola operasi bisnis secara menyeluruh
+- Mengoptimalkan efisiensi operasional dan alokasi sumber daya
+- Memantau kinerja seluruh divisi dan mengidentifikasi area perbaikan
+
+### 💰 **Tim Keuangan**
+- Mengoptimalkan profitabilitas dan kontrol biaya operasional
+- Menganalisis margin keuntungan per produk, kategori, dan wilayah
+- Mengelola anggaran dan mengidentifikasi peluang penghematan
+
+### 📊 **Tim Pemasaran**
+- Meningkatkan konversi penjualan dan retensi pelanggan
+- Menganalisis efektivitas strategi pemasaran per segmen
+- Menyesuaikan penawaran produk ke wilayah dan kelompok pelanggan tertentu
+
+### 🚚 **Tim Logistik**
+- Meminimalkan stok berlebih dan kekurangan stok
+- Mengoptimalkan distribusi dan pengiriman berdasarkan wilayah
+- Mengelola inventory berdasarkan pola penjualan historis
+
+### 📈 **Tim Analisis Data**
+- Menyediakan *insights* bisnis dan analisis prediktif
+- Membuat segmentasi pelanggan dan analisis perilaku konsumen
+- Mengidentifikasi tren penjualan dan pola musiman
+
+## Fakta Utama yang Diidentifikasi:
+- **Sales** (Nilai Penjualan)
+- **Quantity** (Jumlah Unit Terjual)
+- **Discount** (Diskon yang Diberikan)
+- **Profit** (Keuntungan Bersih)
+
+## Dimensi Utama yang Diidentifikasi:
+- **DimCustomer** (Segmen Pelanggan)
+- **DimProduct** (Kategori, Sub-Kategori Produk)
+- **DimGeography** (Negara, State, Kota, Region, Kode Pos)
+- **DimShipMode** (Mode Pengiriman)
 ---
 
 ## 5. Desain Konseptual, Logikal, dan Fisikal
