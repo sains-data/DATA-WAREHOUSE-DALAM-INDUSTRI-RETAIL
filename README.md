@@ -172,16 +172,35 @@ Desain fisikal pada data warehouse Superstore menerapkan strategi pengindeksan (
 ---
 
 ## 6. Proses Implementasi (Misi 4)
-Repositori ini berisi file CSV bernama `SampleSuperstore.csv` yang memuat data transaksi retail. Dataset ini umum digunakan untuk keperluan analisis data, business intelligence, dan pembelajaran konsep data warehouse atau data mining.
+1. memasukkan data
+    proses ini merupakan tahap awal dari pembangunan awal dalam data warehouse
+   data ini mencakup pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit.
 
 ![Superstore](images/memasukkan-data.jpg)
 
-
-Tampilan pada gambar menggunakan **Visual Studio Code (VSCode)** dengan ekstensi **Rainbow CSV**, yang membantu pewarnaan kolom CSV agar mudah dibaca.
-Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CSV diproses. Data yang diekstrak mencakup berbagai dimensi penting seperti segmentasi pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit. 
+Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CSV diproses. Data yang diekstrak mencakup berbagai dimensi penting seperti segmentasi pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit. 
 
 ![Superstore](images/dataset.jpg)
 
+2. Mengembangkan Scrit PHP untuk Melakukan Proses ETL(Extract,Transform,Load)
+   pengembangan ini dimulai dari koneksi ke database, pembacaan file CSV, hingga load data pengembangan ini merupakan tahap awal integrasi data dari sumber eksternal
+   
+![Superstore](images/pengembanganETL.jpg)
+
+3. Analisis Data
+   1. OLAP (Online Analytical Processing)
+      Agregasi Data
+      tahap ini bertujuan untuk melihat gambaran umum dari peforma bisnis. dimana performa bisnis dinilai dari jumlah keuntungan dan jumlah profit yang dihasilkan.
+
+      
+berdasarkan jumlah keuntungan dan jumlah profit
+      ![Superstore](images/analitik1.jpg)
+total profit berdasarkan kategori
+      ![Superstore](images/analitik2.jpg)
+total profit berdasarkan wilayah
+ ![Superstore](images/analitik3.jpg)
+total profit berdasarkan kota
+ ![Superstore](images/analitik4.jpg)
 ---
 
 ## 7. Hasil Implementasi
