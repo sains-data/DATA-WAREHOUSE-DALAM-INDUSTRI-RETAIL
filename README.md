@@ -52,76 +52,37 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 
 ---
 
-## 4. Analisis Kebutuhan (dari Fase 1)
+## 4. Analisis Kebutuhan (dari Misi 1)
 
-### Dataset Structure
-```
-Columns: 21 features
-Rows: 9,994 records
-Size: ~2.3 MB
-```
-
-### Key Features Analysis
-- **Ship Mode**: Metode pengiriman produk
-- **Segment**: Segmen customer (Consumer, Corporate, Home Office)
-- **Country**: Negara (United States)
-- **City**: Kota tempat pengiriman
-- **State**: Negara bagian
-- **Postal Code**: Kode pos
-- **Region**: Wilayah geografis (West, East, Central, South)
-- **Category**: Kategori produk utama
-- **Sub-Category**: Sub-kategori produk
-- **Sales**: Total penjualan dalam dollar
-- **Quantity**: Jumlah unit yang terjual
-- **Discount**: Persentase diskon yang diberikan
-- **Profit**: Keuntungan yang diperoleh
 
 ---
 
 ## 5. Desain Konseptual, Logikal, dan Fisikal
+Desain data warehouse ini mengadopsi **Skema Bintang (Star Schema)** untuk optimalisasi query analitik dan kemudahan pemahaman.
+![Diagram Star Schema](images/schema-star.png)
 
 ### Desain Konseptual
-#### Entity Relationship
-```
-ORDERS (1) ──── (M) ORDER_ITEMS
-   │
-   └── (M) CUSTOMERS (1)
-   
-PRODUCTS (1) ──── (M) ORDER_ITEMS
-   │
-   └── (1) CATEGORIES
+## Penjelasan Tabel
 
-LOCATIONS (1) ──── (M) ORDERS
+### Fact Table
+- **fakta_sales**: Tabel utama yang menyimpan data penjualan
+
+### Dimension Tables
+- **dim_location**: Data lokasi (country, city, state, region, postalcode)
+- **dim_customer**: Data pelanggan (customer_id, segment)
+- **dim_product**: Data produk (product_id, category, subcategory)
+- **dim_time**: Data waktu (time_id, year, month, day)
+
+## Relasi
+- Semua dimension tables terhubung ke fact table melalui foreign keys
+- Menggunakan model star schema untuk optimasi query analytical
 ```
 
 ### Desain Logikal
-#### Data Model Structure
-```sql
--- Fact Table
-fact_sales (
-    ship_mode,
-    segment,
-    country,
-    city,
-    state,
-    postal_code,
-    region,
-    category,
-    sub_category,
-    sales,
-    quantity,
-    discount,
-    profit
-)
+
 ```
 
 ### Desain Fisikal
-#### Technology Stack
-- **Storage**: MySQL/PostgreSQL database
-- **Processing**: SQL queries dan Excel/Google Sheets
-- **Analytics**: SQL untuk data analysis
-- **Visualization**: Tableau Desktop/Public
-- **Data Import**: CSV import ke SQL database
 
 ---
 
