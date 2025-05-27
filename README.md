@@ -185,7 +185,7 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
 2. Mengembangkan Scrit PHP untuk Melakukan Proses ETL(Extract,Transform,Load)
    pengembangan ini dimulai dari koneksi ke database, pembacaan file CSV, hingga load data pengembangan ini merupakan tahap awal integrasi data dari sumber eksternal
    
-![Superstore](images/pengembanganETL.jpg)
+![Superstore](images/pengembangan-ETL.jpg)
 
 3. Analisis Data
    1. OLAP (Online Analytical Processing)
