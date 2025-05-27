@@ -78,22 +78,38 @@ Pendekatan Star Schema diterapkan dalam perancangan data warehouse untuk memaksi
 - **dim_customer**: Data pelanggan (customer_id, segment)
 - **dim_product**: Data produk (product_id, category, sub_category)
 - **dim_time**: Data waktu (time_id, year, month, day)
-
-**Relasi**
-- **Semua dimension tables terhubung ke fact table melalui foreign keys**
-- **Menggunakan model star schema untuk optimasi query analytical**
-```
-
+  
 ### Desain Logikal
 
-```
+**Relasi Tabel**:
+- **Semua dimension tables** terhubung ke **fact table** melalui foreign keys
+- Menggunakan model **star schema** untuk optimasi query analytical
 
 ### Desain Fisikal
+Desain fisikal pada data warehouse Superstore menerapkan strategi pengindeksan (indexing) yang optimal untuk meningkatkan performa query, terutama untuk operasi yang melibatkan penyaringan (WHERE), penggabungan tabel (JOIN), dan pengelompokan data (GROUP BY). Index berperan krusial dalam mempercepat akses data, mengurangi waktu eksekusi query, dan meningkatkan efisiensi sistem secara keseluruhan, terutama ketika menangani volume data yang besar. 
 
+### Rasionalisasi Pemilihan Kolom Index
+
+- **`Customer_ID`**:  
+  Mempercepat join dengan tabel `dim_customer` untuk analisis:
+  - Segmentasi pelanggan
+  - Analisis RFM (Recency, Frequency, Monetary)
+  - Analisis loyalitas pelanggan
+
+- **`Product_ID`**:  
+  Dioptimalkan untuk query terkait kinerja produk seperti:
+  - `"produk terlaris"`
+  - `"analisis margin per item"`
+
+- **`Region` dan `Category` (Composite Index)**:  
+  Mendukung query multidimensi seperti:
+  - `"penjualan kategori Furniture di Region Barat"`
 ---
 
 ## 6. Proses Implementasi
+Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CSV diproses. Data yang diekstrak mencakup berbagai dimensi penting seperti segmentasi pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit. 
 
+![Superstore](images/dataset.jpg)
 
 ---
 
