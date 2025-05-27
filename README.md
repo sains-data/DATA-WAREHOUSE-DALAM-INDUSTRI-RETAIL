@@ -201,13 +201,14 @@ Implementasi *Online Analytical Processing* (OLAP) dalam sistem data warehouse i
 ---
 
 ## 7. Hasil Implementasi
-1. Analisis ini menunjukkan performa bisnis secara keseluruhan dengan menghitung akumulasi penjualan dan profit. Data mengungkapkan bahwa perusahaan berhasil mencapai total penjualan sebesar $2.3 juta dengan profit $286 ribu, yang berarti margin profit keseluruhan berada di kisaran 12.5%. Dari hasil tersebut, dapat diinterpretasikan bahwa total penjualan yang cukup besar menunjukkan volume transaksi yang tinggi. Angka ini memberikan gambaran dasar tentang keberjalananfinansial perusahaan yang baik dan dapat membantu jalannya analisis staratergi pemasaran produk mana yang lebih menguntungkan, mengeliminasi kategori produk yang merugikan perusahaan, serta menilai performa perusahaan secara keseluruhan pada waktu rentang tertentu.
+1. Analisis ini menunjukkan performa bisnis secara keseluruhan dengan menghitung akumulasi penjualan dan profit. Data mengungkapkan bahwa perusahaan berhasil mencapai total penjualan sebesar $2.3 juta dengan profit $286 ribu, yang berarti margin profit keseluruhan berada di kisaran 12.5%. Dari hasil tersebut, dapat diinterpretasikan bahwa total penjualan yang cukup besar menunjukkan volume transaksi yang tinggi. Angka ini memberikan gambaran dasar tentang keberjalanan finansial perusahaan yang baik dan dapat membantu jalannya analisis staratergi pemasaran produk mana yang lebih menguntungkan, mengeliminasi kategori produk yang merugikan perusahaan, serta menilai performa perusahaan secara keseluruhan pada waktu rentang tertentu.
 
 ![Superstore](images/analitik1.jpg)
 
 *Gambar 5. Performa bisnis berdasarkan total keuntungan dan profit*
 
-2. Pembagian penjualan berdasarkan kategori produk memperlihatkan bahwa *Technology* menjadi penyumbang terbesar dengan nilai $836 ribu, diikuti Furniture ($742 ribu) dan *Office Supplies* ($719 ribu). Yang menarik, meskipun *Technology* mendominasi, ketiga kategori sebenarnya menunjukkan distribusi yang cukup seimbang dengan selisih tidak lebih dari 15% antara kategori tertinggi dan terendah, mengindikasikan diversifikasi produk yang baik.
+2. Selanjutnya dilakukan analisis profit berdasarkakn performa, dengan menganalisi pembagian penjualan berdasarkan kategori produk. Dari data dapat diinterpretasikan bahwa *Technology* menjadi penyumbang terbesar dengan nilai $836 ribu, diikuti *Furniture* ($742 ribu) dan *Office Supplies* ($719 ribu). Yang menarik, meskipun *Technology* menjadi kategori tertinggi, ketiga kategori yang lain sebenarnyaa menunjukkan distribusi yang cukup seimbang dengan selisih tidak lebih dari 15% antara kategori tertinggi dan terendah, mengindikasikan diversifikasi produk yang baik.
+Oleh karena itu, karena data menunjukkan keseimbangan penjualan antar kategorou cukup baik maka data dapat digunakan untuk merancang strategy promosi dan pengembangan produk berdasarkan kinerja kategori 
 ![Superstore](images/analitik2.jpg)
 
 *Gambar 6. Profit berdasarkan kategori*
