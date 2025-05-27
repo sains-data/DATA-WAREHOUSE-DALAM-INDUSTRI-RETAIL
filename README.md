@@ -196,13 +196,8 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
 *Gambar 4. Pengembangan ETL*
 
 3. Analisis Data
-   1. OLAP (Online Analytical Processing)
-      Agregasi Data
-      tahap ini bertujuan untuk melihat gambaran umum dari peforma bisnis. dimana performa bisnis dinilai dari jumlah keuntungan dan jumlah profit yang dihasilkan.
+Implementasi *Online Analytical Processing* (OLAP) dalam sistem data warehouse ini fokus pada proses agregasi data untuk memberikan pandangan menyeluruh terhadap kinerja bisnis perusahaan. Melalui teknik agregasi, data transaksional yang kompleks diolah menjadi informasi strategis yang mudah dipahami, dengan emphasis utama pada evaluasi total keuntungan dan analisis profit yang dihasilkan dari berbagai dimensi bisnis seperti kategori produk, wilayah geografis, dan segmentasi pelanggan.
   
-
-
- 
 ---
 
 ## 7. Hasil Implementasi
