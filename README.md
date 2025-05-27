@@ -46,8 +46,14 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 ## 3. Metodologi
 
 ### Tools dan Teknologi
-
+- **Storage**: MySQL/PostgreSQL database
+- **Processing**: SQL queries dan Excel/Google Sheets
+- **Analytics**: SQL untuk data analysis
+- **Visualization**: Tableau Desktop/Public
+- **Data Import**: CSV import ke SQL database
+  
 ### Tahapan Analisis
+
 
 
 ---
