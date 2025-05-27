@@ -172,6 +172,12 @@ Desain fisikal pada data warehouse Superstore menerapkan strategi pengindeksan (
 ---
 
 ## 6. Proses Implementasi (Misi 4)
+Repositori ini berisi file CSV bernama `SampleSuperstore.csv` yang memuat data transaksi retail. Dataset ini umum digunakan untuk keperluan analisis data, business intelligence, dan pembelajaran konsep data warehouse atau data mining.
+
+![Superstore](images/memasukkan-data.jpg)
+
+
+Tampilan pada gambar menggunakan **Visual Studio Code (VSCode)** dengan ekstensi **Rainbow CSV**, yang membantu pewarnaan kolom CSV agar mudah dibaca.
 Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CSV diproses. Data yang diekstrak mencakup berbagai dimensi penting seperti segmentasi pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit. 
 
 ![Superstore](images/dataset.jpg)
