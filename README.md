@@ -197,16 +197,41 @@ Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CS
 
 ---
 
-## 9. Rencana Pengembangan ke Depan
+# 9. Rencana Pengembangan ke Depan
 
-### Short-term Improvements (3 months)
+## **Perbaikan Jangka Pendek (3 bulan)**
+- **Enhanced SQL Analytics**:  
+  Mengembangkan stored procedure untuk perhitungan kompleks seperti:  
+  ✅ Customer lifetime value  
+  ✅ Tren profitabilitas produk  
 
+- **Standarisasi Template Excel**:  
+  Membuat template standar untuk:  
+  📊 Laporan penjualan bulanan  
+  📈 Analisis varians   
 
-### Medium-term Goals (6-12 months)
+---
 
+## **Tujuan Jangka Menengah (6-12 bulan)**  
+- **Analisis Musiman**:  
+  Kueri SQL untuk identifikasi:  
+  🍂 Tren seasonal berdasarkan ship mode  
+  🗺️ Pola regional  
 
-### Long-term Vision (1-2 years)
+- **Segmentasi Pelanggan**:  
+  Analisis RFM lanjutan dengan SQL untuk:  
+  🎯 Target pelanggan lebih akurat berdasarkan perilaku segment  
 
+---
+
+## **Visi Jangka Panjang (1-2 tahun)**  
+- **Integrasi Prediktif Analytics**:  
+  Model forecasting dasar di Excel untuk:  
+  🔮 Prediksi penjualan berdasarkan tren historis  
+
+- **Sistem Pelaporan Otomatis**:  
+  Pembuatan:  
+  ⏰ Laporan Tableau terjadwal untuk review bisnis bulanan  
 
 ---
 
