@@ -211,31 +211,54 @@ Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami perform
 
 *Gambar 5. Profit berdasarkan wilayah*
 
-Total profit berdasarkan kategori
+Analisis ini menampilkan distribusi profit di setiap kategori produk untuk mengidentifikasi kategori yang paling menguntungkan.
 ![Superstore](images/analitik2.jpg)
 
-Total profit berdasarkan wilayah
+*Gambar 6. Profit berdasarkan kategori*
+
+Visualisasi profit berdasarkan wilayah geografis membantu dalam memahami performa regional dan mengidentifikasi area dengan potensi terbaik.
 ![Superstore](images/analitik3.jpg)
 
-Total profit berdasarkan kota
+*Gambar 7. Profit berdasarkan wilayah*
+
+Analisis tingkat kota memberikan insight yang lebih detail mengenai performa bisnis di tingkat lokal.
 ![Superstore](images/analitik4.jpg)
 
-Analisis performa berdasarkan kategori
+*Gambar 8. Profit berdasarkan kota*
+
+Analisis mendalam mengenai performa setiap kategori produk dengan berbagai metrik bisnis.
 ![Superstore](images/Analisis-Performa-Kategori.jpg)
 
-Analisis region dan segmentasi
+*Gambar 9. Analisis performa berdasarkan kategori*
+
+Kombinasi analisis antara wilayah geografis dengan segmentasi pelanggan untuk memahami pola pembelian dan preferensi pasar.
 ![Superstore](images/Analisis-Region-Segment.jpg)
 
-Analisis top performing product
+*Gambar 10. Analisis region dan segmentasi*
+
+Identifikasi produk-produk dengan performa terbaik berdasarkan berbagai metrik seperti penjualan, profit, dan volume transaksi.
 ![Superstore](images/Analisis-Top-Performing-Products.jpg)
+
+*Gambar 11. Analisis top performing product*
 
 
 ---
 
 ## 8. Evaluasi
+### Pencapaian Tujuan
 
+Implementasi data warehouse Superstore telah berhasil mencapai beberapa tujuan utama:
 
+1. **Integrasi Data**: Berhasil mengintegrasikan data dari berbagai sumber menjadi satu repositori terpusat
+2. **Proses ETL**: Script PHP berhasil melakukan ekstraksi, transformasi, dan loading data secara efektif
+3. **Analisis OLAP**: Implementasi analisis multidimensional memberikan insight bisnis yang berharga
 
+### Tantangan dan Solusi
+
+1. **Kualitas Data**: Tantangan dalam memastikan konsistensi dan akurasi data
+   - Solusi: Implementasi validasi data dalam proses ETL
+2. **Performa Query**: Optimasi query untuk analisis data yang besar
+   - Solusi: Implementasi indeks dan optimasi struktur database
 
 ---
 
