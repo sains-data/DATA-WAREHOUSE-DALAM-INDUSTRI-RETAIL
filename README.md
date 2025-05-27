@@ -58,11 +58,10 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 ---
 
 ## 5. Desain Konseptual, Logikal, dan Fisikal
-Desain data warehouse ini mengadopsi **Skema Bintang (Star Schema)** untuk optimalisasi query analitik dan kemudahan pemahaman.
+Pendekatan Star Schema diterapkan dalam perancangan data warehouse untuk memaksimalkan kinerja analisis data dan kemudahan navigasi struktur informasi.
 ![Diagram Star Schema](images/schema-star.png)
 
 ### Desain Konseptual
-## Penjelasan Tabel
 
 ### Fact Table
 - **fakta_sales**: Tabel utama yang menyimpan data penjualan
