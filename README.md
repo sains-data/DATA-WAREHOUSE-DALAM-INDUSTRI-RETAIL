@@ -201,23 +201,7 @@ Implementasi *Online Analytical Processing* (OLAP) dalam sistem data warehouse i
 ---
 
 ## 7. Hasil Implementasi
-1. Analisis ini menunjukkan performa bisnis secara keseluruhan dengan menghitung akumulasi penjualan dan profit. 
-| **Metode Agregasi** | **Hasil**    |
-| ------------------- | ------------ |
-| `total_sales`       | 2,297,200.86 |
-| `total_profit`      | 286,397.02   |
-Data mengungkapkan bahwa perusahaan berhasil mencapai total penjualan sebesar $2.3 juta dengan profit $286 ribu, yang berarti margin profit keseluruhan berada di kisaran 12.5%. 
-Margin=( 
-Total Sales
-Total Profit
-​
- )×100=( 
-2297200.86
-286397
-​
- )×100≈12.46%
-
-Dari hasil tersebut, dapat diinterpretasikan bahwa tsotal penjualan yang cukup besar menunjukkan volume transaksi yang tinggi. Angka ini memberikan gambaran dasar tentang keberjalananfinansial perusahaan yang baik dan dapat membantu jalannya analisis staratergi pemasaran produk mana yang lebih menguntungkan, mengeliminasi kategori produk yang merugikan perusahaan, serta menilai performa perusahaan secara keseluruhan pada waktu rentang tertentu.
+1. Analisis ini menunjukkan performa bisnis secara keseluruhan dengan menghitung akumulasi penjualan dan profit. Data mengungkapkan bahwa perusahaan berhasil mencapai total penjualan sebesar $2.3 juta dengan profit $286 ribu, yang berarti margin profit keseluruhan berada di kisaran 12.5%. Dari hasil tersebut, dapat diinterpretasikan bahwa total penjualan yang cukup besar menunjukkan volume transaksi yang tinggi. Angka ini memberikan gambaran dasar tentang keberjalananfinansial perusahaan yang baik dan dapat membantu jalannya analisis staratergi pemasaran produk mana yang lebih menguntungkan, mengeliminasi kategori produk yang merugikan perusahaan, serta menilai performa perusahaan secara keseluruhan pada waktu rentang tertentu.
 
 ![Superstore](images/analitik1.jpg)
 
