@@ -59,6 +59,7 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 
 ## 5. Desain Konseptual, Logikal, dan Fisikal
 Pendekatan Star Schema diterapkan dalam perancangan data warehouse untuk memaksimalkan kinerja analisis data dan kemudahan navigasi struktur informasi.
+
 ![Diagram Star Schema](images/schema-star.png)
 
 ### Desain Konseptual
