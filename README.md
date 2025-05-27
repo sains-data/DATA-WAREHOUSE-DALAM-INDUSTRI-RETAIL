@@ -221,22 +221,22 @@ Hasil: Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam fo
 
 *Gambar 7. Profit berdasarkan wilayah*
 
-Analisis tingkat kota memberikan insight yang lebih detail mengenai performa bisnis di tingkat lokal.
+4. Analisis tingkat kota memberikan insight yang lebih detail mengenai performa bisnis di tingkat lokal.
 ![Superstore](images/analitik4.jpg)
 
 *Gambar 8. Profit berdasarkan kota*
 
-4. Analisis mendalam mengenai performa setiap kategori produk dengan berbagai metrik bisnis.
+5. Analisis mendalam mengenai performa setiap kategori produk dengan berbagai metrik bisnis.
 ![Superstore](images/Analisis-Performa-Kategori.jpg)
 
 *Gambar 9. Analisis performa berdasarkan kategori*
 
-5. Kombinasi analisis antara wilayah geografis dengan segmentasi pelanggan untuk memahami pola pembelian dan preferensi pasar.
+6. Kombinasi analisis antara wilayah geografis dengan segmentasi pelanggan untuk memahami pola pembelian dan preferensi pasar.
 ![Superstore](images/Analisis-Region-Segment.jpg)
 
 *Gambar 10. Analisis region dan segmentasi*
 
-6. Identifikasi produk-produk dengan performa terbaik berdasarkan berbagai metrik seperti penjualan, profit, dan volume transaksi.
+7. Identifikasi produk-produk dengan performa terbaik berdasarkan berbagai metrik seperti penjualan, profit, dan volume transaksi.
 ![Superstore](images/Analisis-Top-Performing-Products.jpg)
 
 *Gambar 11. Analisis top performing product*
