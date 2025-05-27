@@ -208,12 +208,12 @@ Implementasi *Online Analytical Processing* (OLAP) dalam sistem data warehouse i
 *Gambar 5. Performa bisnis berdasarkan total keuntungan dan profit*
 
 2. Selanjutnya dilakukan analisis profit berdasarkakn performa, dengan menganalisi pembagian penjualan berdasarkan kategori produk. Dari data dapat diinterpretasikan bahwa *Technology* menjadi penyumbang terbesar dengan nilai $836 ribu, diikuti *Furniture* ($742 ribu) dan *Office Supplies* ($719 ribu). Yang menarik, meskipun *Technology* menjadi kategori tertinggi, ketiga kategori yang lain sebenarnyaa menunjukkan distribusi yang cukup seimbang dengan selisih tidak lebih dari 15% antara kategori tertinggi dan terendah, mengindikasikan diversifikasi produk yang baik.
-Oleh karena itu, karena data menunjukkan keseimbangan penjualan antar kategorou cukup baik maka data dapat digunakan untuk merancang strategy promosi dan pengembangan produk berdasarkan kinerja kategori 
+Oleh karena itu, karena data menunjukkan keseimbangan penjualan antar kategori cukup baik maka data dapat digunakan untuk merancang strategy promosi dan pengembangan produk berdasarkan kinerja kategori 
 ![Superstore](images/analitik2.jpg)
 
 *Gambar 6. Profit berdasarkan kategori*
 
-3. Analisis regional mengungkap disparitas profit yang signifikan di mana wilayah *West* unggul dengan profit $108 ribu, hampir tiga kali lipat dibanding wilayah *Central* yang hanya $39 ribu. Pola ini menunjukkan bahwa strategi penjualan yang efektif di wilayah *West* dan *East* perlu diteliti lebih lanjut untuk diterapkan di wilayah dengan performa lebih rendah.
+3. Analisis regional mengungkap disparitas profit yang signifikan di mana wilayah *West* unggul dengan profit $108 ribu, hampir tiga kali lipat dibanding wilayah *Central* yang hanya $39 ribu. Pola ini menunjukkan bahwa performa *West* merupakan penjualan yang paling unggul dibanding wilayah lainnya, yang kemungkinan disebabkan oleh strategi pemasaran yang lebih efektif atau tingkat permintaan pasar yang tinggi di wilayah tersebut. Sebaliknya, wilayah *Central* mencatatkan profit terendah, yang mengindikasikan perlunya evaluasi terhadap strategi distribusi, promosi, atau preferensi konsumen di wilayah tersebut. Perbedaan signifikan antar wilayah ini menunjukkan adanya ketimpangan performa regional yang dapat dijadikan dasar untuk perbaikan strategi bisnis secara lebih spesifik dan tersegmentasi.
 ![Superstore](images/analitik3.jpg)
 
 *Gambar 7. Profit berdasarkan wilayah*
