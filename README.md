@@ -51,10 +51,32 @@ Superstore merupakan salah satu retailer terbesar yang menjual berbagai produk m
 - **Analytics**: SQL untuk data analysis
 - **Visualization**: Tableau Desktop/Public
 - **Data Import**: CSV import ke SQL database
-  
+
 ### Tahapan Analisis
 
+#### **Misi 1: Analisis Kebutuhan & Pemecahan Masalah**
+- Identifikasi stakeholder utama dan tujuan bisnis
+- Analisis kebutuhan informasi setiap divisi
+- Penentuan metrik kunci (fakta) dan dimensi
+- Pemecahan masalah bisnis melalui pendekatan data-driven
 
+#### **Misi 2: Desain Konseptual**
+- Perancangan model dimensional (star schema/snowflake)
+- Identifikasi fact table dan dimension table
+- Penentuan grain level dan hierarchy dimensi
+- Pemodelan hubungan antar tabel
+
+#### **Misi 3: Desain Logikal & Fisik**
+- Transformasi model konseptual ke struktur database
+- Optimalisasi struktur tabel dan indexing
+- Penentuan tipe data dan constraint
+- Desain ETL (Extract, Transform, Load) process
+
+#### **Misi 4: Implementasi, Reporting, & Produksi**
+- Implementasi data warehouse di environment produksi
+- Pengembangan dashboard dan laporan bisnis
+- Testing dan validasi data quality
+- Deployment dan maintenance system
 
 ---
 
@@ -106,7 +128,7 @@ Analisis kebutuhan berfokus pada identifikasi stakeholder utama dan tujuan bisni
 - **DimShipMode** (Mode Pengiriman)
 ---
 
-## 5. Desain Konseptual, Logikal, dan Fisikal
+## 5. Desain Konseptual, Logikal, dan Fisikal (Misi 2 & 3)
 Pendekatan Star Schema diterapkan dalam perancangan data warehouse untuk memaksimalkan kinerja analisis data dan kemudahan navigasi struktur informasi.
 
 ![Diagram Star Schema](images/schema-star.png)
@@ -149,7 +171,7 @@ Desain fisikal pada data warehouse Superstore menerapkan strategi pengindeksan (
   - `"penjualan kategori Furniture di Region Barat"`
 ---
 
-## 6. Proses Implementasi
+## 6. Proses Implementasi (Misi 4)
 Pada tahap ekstraksi, data mentah dari Superstore yang tersimpan dalam format CSV diproses. Data yang diekstrak mencakup berbagai dimensi penting seperti segmentasi pelanggan, informasi geografis, kategori produk, serta metrik bisnis utama seperti pengiriman, diskon, dan profit. 
 
 ![Superstore](images/dataset.jpg)
